@@ -1,0 +1,13 @@
+server:
+  port: 8501
+
+eureka:
+  instance:
+    hostname: localhost #for 192.168.100.61
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://192.168.100.61:8601/eureka/,http://192.168.100.63:8701/eureka/
+
+spring.cloud.config.discovery.enabled: true
