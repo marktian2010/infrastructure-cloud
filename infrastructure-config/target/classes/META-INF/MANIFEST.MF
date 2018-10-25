@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: 017163
+Build-Jdk: 11
+Implementation-Title: infrastructure-config
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.aiyingshi
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/infrastructure-cloud/infrastructure-config
+Created-By: Maven Integration for Eclipse
+

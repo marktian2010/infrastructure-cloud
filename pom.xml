@@ -7,6 +7,7 @@
   
   <modules>
   	<module>infrastructure-eureka</module>
+  	<module>infrastructure-config</module>
   </modules>
   
   <properties>

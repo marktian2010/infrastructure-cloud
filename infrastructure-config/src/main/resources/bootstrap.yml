@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aiyingshi-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://192.168.100.63:8080/aiyingshi/infrastructure-cloud。git
+          username: aiyingshi
+          password:
