@@ -1,0 +1,23 @@
+version: '3'
+services:
+  eureka1:
+    image: marktian2010/eureka:cluster-01-20181024
+    container_name: eurekacluster01
+    hostname: 192.168.100.61
+    ports:
+      - "8501:8501"
+  eureka2:
+    image: marktian2010/eureka:cluster-02-20181024
+    container_name: eurekacluster02
+    hostname: 192.168.100.61
+    ports:
+      - "8601:8601"
+  eureka3:
+    image: marktian2010/eureka:cluster-03-20181024
+    container_name: eurekacluster03
+    hostname: 192.168.100.63
+    ports:
+      - "8701:8701"    
+  
+      
+      
