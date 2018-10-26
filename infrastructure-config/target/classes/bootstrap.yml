@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: http://192.168.100.63:8080/aiyingshi/infrastructure-cloud。git
+          uri: http://192.168.100.63:9090/digitalo/infrastructure-cloud.git
           username: aiyingshi
           password:

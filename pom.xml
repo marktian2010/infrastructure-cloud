@@ -8,6 +8,7 @@
   <modules>
   	<module>infrastructure-eureka</module>
   	<module>infrastructure-config</module>
+  	<module>infrastructure-zipkin</module>
   </modules>
   
   <properties>
