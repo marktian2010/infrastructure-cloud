@@ -1,6 +1,6 @@
 spring:
   application:
-    name: aiyingshi-config-server
+    name: aiyingshiconfigserver01
   cloud:
     config:
       server:
@@ -8,3 +8,18 @@ spring:
           uri: http://192.168.100.63:9090/digitalo/infrastructure-cloud.git
           username: aiyingshi
           password:
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers:
+    customer:
+      group-id:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    
+    
+  

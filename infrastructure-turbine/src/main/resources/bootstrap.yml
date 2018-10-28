@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: turbine
+  cloud:
+    config:
+      #uri: http://192.168.100.61:8502
+      discovery:
+              service-id: aiyingshiconfigserver01
+              enabled: true
+    
+  kafka:
+    bootstrap-servers:
+    -    

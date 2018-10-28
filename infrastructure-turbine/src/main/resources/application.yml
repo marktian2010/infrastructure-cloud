@@ -1,0 +1,19 @@
+server:
+  port: 8507
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.100.61:8501/eureka/,http://192.168.100.61:8601/eureka/,http://192.168.100.63:8701/eureka/
+
+turbine:
+  appConfig:
+  aggregator:
+    cluster-config:
+    - default
+  clusterNameExpression: new string("default")
+
+management: 
+    endpoints: 
+        web: 
+            exposure: 
+                include: '*'

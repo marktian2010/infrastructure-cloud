@@ -1,0 +1,14 @@
+server:
+  port: 8507
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+    shutdown:
+      enabled: true
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG

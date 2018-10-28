@@ -9,6 +9,8 @@
   	<module>infrastructure-eureka</module>
   	<module>infrastructure-config</module>
   	<module>infrastructure-zipkin</module>
+  	<module>infrastructure-hystrix</module>
+  	<module>infrastructure-turbine</module>
   </modules>
   
   <properties>

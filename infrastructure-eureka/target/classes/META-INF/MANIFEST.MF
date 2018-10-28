@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Built-By: 017163
-Build-Jdk: 11
 Implementation-Title: infrastructure-eureka
 Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: markt
 Implementation-Vendor-Id: com.aiyingshi
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
- -starter-parent/infrastructure-cloud/infrastructure-eureka
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/infrastructure-cloud/infrastructure-eureka
 Created-By: Maven Integration for Eclipse
 
